@@ -45,7 +45,7 @@ These parallel networks reduce their respective inputs to increasingly smaller t
 The main model consists of a Siamese Neural Network based on convolutional neural networks (CNNs). The network's input consists of two twin input vectors with a corresponding hidden vector in each convolutional layer. The model architecture that maximizes performance is the one whose number of convolutional layers is 4, whose number of filters in each layer is a multiple of 16 and in which the corresponding output features maps are applied to a ReLu activation function and to a maxpooling layer.
 \
 \
-Four convolutional layers are interspersed with 3 max-pooling layers of stride 2. A ReLU activation is applied to the first layers to accelerate the process of convergence and a sigmoid function in the last layer condenses the final score in a value between 0 and 1,
+Four convolutional layers are interspersed with 3 max-pooling layers of stride 2. A ReLU activation is applied to the first layers to accelerate the process of convergence and a sigmoid function in the last layer condenses the final score in a value between 0 and 1.
 \
 \
 The output feature maps of the last convolutional layer serve as an input to a fully connected (FC) layer with 1024 units. The FC layer learns a similarity function and computes the distance between both embedded outputs of the Siamese Twins. The absolute difference between both flattened embeddings serve as input to a sigmoid function to return the predicted similarity score.
