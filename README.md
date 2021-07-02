@@ -1,5 +1,7 @@
 # One-shot Siamese Neural Network Architecture for Low Data Drug Discovery
 
+by Luis H. M. Torres, Joel P. Arrais and Bernardete Ribeiro
+
 The application of deep neural networks is an important asset to significantly increase the predictive power when inferring the properties and activities of small-molecules and those of their pharmacological analogues. However, in the traditional drug discovery process where supervised high-quality data is scarce, the lead-optimization step is, inherently, a low-data problem.
 \
 \
