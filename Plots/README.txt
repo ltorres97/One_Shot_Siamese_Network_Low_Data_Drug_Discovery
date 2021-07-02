@@ -4,7 +4,7 @@ tanimoto_clustering.png
 
 description: 
   The proposed model aims to predict novel compounds according to the structural similarities observed between molecules.
-  the Tanimoto coefficient is used to establish clusters of predictable compounds according to the structural differences observed between 1D sequential structured data. 
+  The Tanimoto coefficient is used to establish clusters of predictable compounds according to the structural differences observed between 1D sequential structured data. 
  
   - Butina Clustering algorithm and the Tanimoto distance were used to perform the clustering and organize the data into several groups of predictable compounds;
   - A cut-off value of 0.7 for Tanimoto similarity was considered to return the best cluster structure and performance;
