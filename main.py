@@ -53,10 +53,10 @@ if __name__=='__main__':
     one_shot_model = Validate_one_shot()
     
     # 1) One-Shot Siamese Model
-    # one_shot_model.train_validate('one_shot_siamese',n_iter,loader, time, siamese_net,batch_size,t_start,n_val, evaluate_every, loss_every, N);
+    one_shot_model.train_validate('one_shot_siamese',n_iter,loader, time, siamese_net,batch_size,t_start,n_val, evaluate_every, loss_every, N);
     
     # 2) K-Nearest Neighbour
-    one_shot_model.train_validate('knn',n_iter,loader, time, siamese_net,batch_size,t_start,n_val, evaluate_every, loss_every, N);
+    #one_shot_model.train_validate('knn',n_iter,loader, time, siamese_net,batch_size,t_start,n_val, evaluate_every, loss_every, N);
     
     # 3) Random Model
     # one_shot_model.train_validate('naive',n_iter,loader, time, siamese_net,batch_size,t_start,n_val, evaluate_every, loss_every, N);
