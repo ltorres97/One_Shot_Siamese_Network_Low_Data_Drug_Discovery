@@ -114,16 +114,16 @@ In the implementation of those models, we provide a  set  of  drug  pairs and we
 
 ## Authors
 
- - Luis H. M.Torres is with Department of Informatics Engineering (DEI),
+ - Luis H. M.Torres, Department of Informatics Engineering (DEI),
 Center for Informatics and Systems of the University of Coimbra
-(CISUC), University of Coimbra, Coimbra, Portugal
+(CISUC), University of Coimbra, Coimbra, Portugal;
 E-mail: luistorres@dei.uc.pt
--  Joel P. Arrais is with Department of Informatics Engineering (DEI), Center
+-  Joel P. Arrais, Department of Informatics Engineering (DEI), Center
 for Informatics and Systems of the University of Coimbra (CISUC),
-University of Coimbra, Coimbra, Portugal
+University of Coimbra, Coimbra, Portugal;
 E-mail: jpa@dei.uc.pt
-- Bernardete Ribeiro is with Department of Informatics Engineering (DEI),
+- Bernardete Ribeiro, Department of Informatics Engineering (DEI),
 Center for Informatics and Systems of the University of Coimbra
-(CISUC), University of Coimbra, Coimbra, Portugal
+(CISUC), University of Coimbra, Coimbra, Portugal;
 E-mail: bribeiro@dei.uc.pt
 
