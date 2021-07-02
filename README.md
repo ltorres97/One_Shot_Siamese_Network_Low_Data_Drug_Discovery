@@ -108,6 +108,9 @@ In the implementation of those models, we provide a  set  of  drug  pairs and we
 | KNN | 46% | 36% | 32% |  29% | 20% | 18% |
 | Random | 55% | 39% | 30% | 25% | 18% | 13% |
 | SVM | 54% | 31% | 28% | 23% | 18% | 13% |
+| Random Forest | 51% | 43% | 34% | 24% | 10% | 7% |
+| CNN |  84% | 70% | 63% | 59% | 50% | 43% |
+| MLP | 56% | 37% | 31% | 26% | 17% | 14% |
 
 ## Authors
 
@@ -123,6 +126,4 @@ E-mail: jpa@dei.uc.pt
 Center for Informatics and Systems of the University of Coimbra
 (CISUC), University of Coimbra, Coimbra, Portugal
 E-mail: bribeiro@dei.uc.pt
-| Random Forest | 51% | 43% | 34% | 24% | 10% | 7% |
-| CNN |  84% | 70% | 63% | 59% | 50% | 43% |
-| MLP | 56% | 37% | 31% | 26% | 17% | 14% |
+
