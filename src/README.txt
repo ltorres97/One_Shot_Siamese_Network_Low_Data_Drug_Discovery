@@ -11,7 +11,7 @@ python scripts:
         -> Butina Clustering algorithm and the Tanimoto distance to perform the clustering;
         -> Process the data to form groups with 'group_size' elements each according to the clusters obtained;
         -> SMILES are encoded into binary matrices based on a dictionary of characters;
-        -> Data is organized and pre-processed to serve as an input to the Siamese model;
+        -> Data is organized and pre-processed to serve as an input to the Siamese model.
         
   - siamese_model.py
         -> implements the Siamese Neural Network Architecture.
