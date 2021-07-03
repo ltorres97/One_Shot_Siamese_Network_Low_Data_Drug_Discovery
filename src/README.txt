@@ -1,6 +1,7 @@
 ### FILE DESCRIPTION ###
 
 python scripts:
+
   - load_siamese.py 
         -> load the Siamese Model and organize training and validation batches;
         -> organizes N-way one-shot learning tasks;
@@ -24,9 +25,12 @@ python scripts:
         
   - main.py
         -> main script to run the models and get the results.
+
 data: 
+
   - tox21.csv
   	-> Tox21 dataset
+	
   - compounds.txt
   	-> .txt file for SMILES processing
 	
