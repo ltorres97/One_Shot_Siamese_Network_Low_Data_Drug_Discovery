@@ -51,7 +51,7 @@ if __name__=='__main__':
     one_shot_model = Validate_one_shot()
     
     # 1) One-Shot Siamese Model
-    # one_shot_model.train_validate('one_shot_siamese',n_iter,loader, time, siamese_net,batch_size,t_start,n_val, evaluate_every, loss_every, N);
+    one_shot_model.train_validate('one_shot_siamese',n_iter,loader, time, siamese_net,batch_size,t_start,n_val, evaluate_every, loss_every, N);
     
     # 2) K-Nearest Neighbour
     # one_shot_model.train_validate('knn',n_iter,loader, time, siamese_net,batch_size,t_start,n_val, evaluate_every, loss_every, N);
@@ -60,7 +60,7 @@ if __name__=='__main__':
     # one_shot_model.train_validate('naive',n_iter,loader, time, siamese_net,batch_size,t_start,n_val, evaluate_every, loss_every, N);
     
     # 4)  Uncomment the following commands to run the models: CNN, SVM, RF, MLP
-    loader = Validate_Models(data_train,data_test)
+    # loader = Validate_Models(data_train,data_test)
     
     # 4.1) CNN 
     # loader.train_validate_cnn(N,n_val,len(data_train))
@@ -69,7 +69,7 @@ if __name__=='__main__':
     # loader.train_validate_models(N, n_val, len(data_train),'RF', batch_size, n_iter)
     
     # 4.3) SVM
-    loader.train_validate_models(N, n_val ,len(data_train),'SVM', batch_size, n_iter)
+    # loader.train_validate_models(N, n_val ,len(data_train),'SVM', batch_size, n_iter)
     
     # 4.4) MLP
     # loader.train_validate_models(N, n_val, len(data_train),'MLP', batch_size, n_iter)
