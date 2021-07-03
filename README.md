@@ -105,7 +105,7 @@ In the implementation of those models, we provide a  set  of  drug  pairs and we
 | ------- | --- | --- | --- | --- | --- | --- |
 | Siamese val | 94% | 90% | 85% | 81% | 76% | 70% |
 | Siamese train | 95% | 92% | 88% | 86% | 77% | 71% |
-| KNN | 46% | 36% | 32% |  29% | 20% | 18% |
+| KNN | 50% | 36% | 32% |  29% | 20% | 18% |
 | Random | 55% | 39% | 30% | 25% | 18% | 13% |
 | SVM | 54% | 31% | 28% | 23% | 18% | 13% |
 | Random Forest | 51% | 43% | 34% | 24% | 10% | 7% |
