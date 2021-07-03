@@ -110,7 +110,7 @@ In the implementation of those models, we provide a  set  of  drug  pairs and we
 | SVM | 54% | 31% | 28% | 23% | 18% | 13% |
 | Random Forest | 51% | 43% | 34% | 24% | 10% | 7% |
 | CNN |  84% | 70% | 63% | 59% | 50% | 43% |
-| MLP | 56% | 37% | 31% | 26% | 17% | 14% |
+| MLP | 66% | 37% | 31% | 26% | 17% | 14% |
 
 ## Authors
 
