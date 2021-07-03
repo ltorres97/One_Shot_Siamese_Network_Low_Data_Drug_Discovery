@@ -32,7 +32,7 @@ In this study, starting from a reduced set of candidate molecules, we adapt the 
 \
 We introduce an approach compatible with the set of pairs of compounds provided, a Siamese neural network built upon two parallel and identical convolutional neural networks. The model learns a similarity function and returns a distance metric applied to the output feature vectors from both Siamese twins given a pair of input molecules. 
 
-[![](https://github.com/ltorres97/One_Shot_Siamese_Network_Low_Data_Drug_Discovery/blob/main/siamese_net.png?raw=true)](https://github.com/ltorres97/One_Shot_Siamese_Network_Low_Data_Drug_Discovery/blob/main/siamese_net.png?raw=true)
+[![](https://github.com/ltorres97/One_Shot_Siamese_Network_Low_Data_Drug_Discovery/tree/main/Figures/siamese_net.png?raw=true)](https://github.com/ltorres97/One_Shot_Siamese_Network_Low_Data_Drug_Discovery/tree/main/Figures/siamese_net.png?raw=true)
 # Methodology
 ## Model Overview
 
