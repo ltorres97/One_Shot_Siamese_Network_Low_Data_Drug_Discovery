@@ -24,7 +24,12 @@ python scripts:
         
   - main.py
         -> main script to run the models and get the results.
-
+data: 
+  - tox21.csv
+  	-> Tox21 dataset
+  - compounds.txt
+  	-> .txt file for SMILES processing
+	
 instructions:
 	first, download the file "tox21.csv" in the same directory. 
 	second, uncomment the appropriate code lines in "main.py" to run a specific model.
